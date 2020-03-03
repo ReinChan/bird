@@ -1,0 +1,23 @@
+uses crt;
+label wibu;
+        var i,hg,hgg,b,c : integer;a:real;
+begin
+clrscr;
+write('cek');
+hg := 0;
+hgg:= 26-hg;
+b:=500;
+c:=50
+for i := 1 to hgg do begin
+    gotoxy(10,hg);
+    write('0');
+    c:=c-5;
+    b:=b-c;
+    delay(b);
+    gotoxy(10,hg);
+    write(' ');
+    hg:= hg + 1;end;
+wibu:
+write('testes');
+readkey;
+end.
